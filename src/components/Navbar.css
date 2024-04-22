@@ -1,0 +1,27 @@
+.main-logo {
+    width: 38px;
+    height: 38px;
+}
+.menu-open{
+    transform: translateX(100px);
+}
+.dental-demo {
+    color: #2E2C49;
+}
+
+.links {
+    color: #AAA7B1;
+
+}
+
+.contact-button {
+    background: linear-gradient(153.09deg, #5390FF 10.28%, #1660E6 102.17%);
+
+}
+
+
+@media (max-width:340px) {
+    .dental-demo {
+        font-size: 24px;
+    }
+}

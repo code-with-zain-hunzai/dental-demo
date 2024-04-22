@@ -1,0 +1,16 @@
+.updates {
+    background: #FA886F;
+
+}
+
+.updatesService {
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+}
+
+.border-b-2 {
+    background: #FFFFFF26;
+}
+
+.textLeft {
+    margin-left: 80px;
+}
