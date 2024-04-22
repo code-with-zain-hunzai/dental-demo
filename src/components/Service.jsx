@@ -89,30 +89,29 @@ const Services = () => {
         ))}
       </div>
 
-      <div className="dentalUpdate bg-[#FC8469] mt-20 ">
-        <div className="updates mt-14 pb-8 ml-[135px] mr-[129px] bg-[#FC8469]">
-          <div className="updatesService grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 pt-14 pb-8 gap-x-7 text-white">
-            <div className="Emergency  sm:border-none md:border-none lg:border-none xl:border-r-2  2xl:border-r-2 sm:ml-36 md:ml-36 lg:ml-0 xl:ml-0 2xl:ml-0 flex-grow">
-              <h2 className='text-[36px] mt-7 ml-6 font-bold'>10 +</h2>
-              <p className='mt-4 text-[18px]'>Great Dentists</p>
+      <div className="dentalUpdate bg-[#FC8469] mt-20">
+    <div className="updates mt-14 pb-8 ml-[135px] mr-[129px] bg-[#FC8469]">
+        <div className="updatesService grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 pt-14 pb-8 gap-x-7 text-white">
+            <div className="Emergency sm:border-r-0 md:border-r-0 lg:border-r-2 xl:border-r-2 2xl:border-r-2  flex-grow text-center">
+                <h2 className='text-[36px] mt-7 font-bold'>10 +</h2>
+                <p className='mt-4 text-[18px]'>Great Dentists</p>
             </div>
-            <div className="Emergency  sm:border-none md:border-none lg:border-none xl:border-r-2  2xl:border-r-2 flex-grow text-center">
-              <h2 className='text-[36px] mt-7 font-bold'>50 +</h2>
-              <p className='mt-4 text-[18px]'>Dental Services</p>
+            <div className="Emergency sm:border-r-0 md:border-r-0 lg:border-r-2 xl:border-r-2 2xl:border-r-2 flex-grow text-center">
+                <h2 className='text-[36px] mt-7 font-bold'>50 +</h2>
+                <p className='mt-4 text-[18px]'>Dental Services</p>
             </div>
-            <div className="Emergenc sm:border-none md:border-none lg:border-r-2 xl:border-r-2  2xl:border-r-2 flex-grow text-center">
-              <h2 className='text-[36px] mt-7 font-bold '>100 +</h2>
-              <p className='mt-4 text-[18px]'>Happy Clients</p>
+            <div className="Emergency sm:border-r-0 md:border-r-0 lg:border-r-2 xl:border-r-2 2xl:border-r-2 flex-grow text-center">
+                <h2 className='text-[36px] mt-7 font-bold'>100 +</h2>
+                <p className='mt-4 text-[18px]'>Happy Clients</p>
             </div>
-            <div className="Emergency flex-grow text-center">
-              <h2 className='text-[36px] mt-7 font-bold'>15 +</h2>
-              <p className='mt-4 text-[18px]'>Years of Experience</p>
+            <div className="Emergency sm:border-r-0 md:border-r-0 lg:border-r-0 xl:border-r-0 2xl:border-r-0 flex-grow text-center">
+                <h2 className='text-[36px] mt-7 font-bold'>15 +</h2>
+                <p className='mt-4 text-[18px]'>Years of Experience</p>
             </div>
-           
-          </div>
         </div>
+    </div>
+</div>
 
-      </div>
     </div>
   );
 }
