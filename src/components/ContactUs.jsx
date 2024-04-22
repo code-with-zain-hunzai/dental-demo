@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 const ContactUs = () => {
     const [inputs, setInputs] = useState([
-        { id: "name", value: '', placeholder: 'Name' },
-        { id: "gmail", value: '', placeholder: 'Gmail' },
-        { id: "note", value: '', placeholder: 'Note...' }
+        { id: "name", value: 'Name', placeholder: 'Name' },
+        { id: "gmail", value: 'Gmail', placeholder: 'Gmail' },
+        { id: "note", value: 'Note', placeholder: 'Note...' }
     ]);
 
     const handleInputChange = (id, event) => {

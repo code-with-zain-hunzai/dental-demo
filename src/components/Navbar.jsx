@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import logo from '../assets/logo.png';
 import './Navbar.css';
-import '../App.css';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,10 +30,10 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className='p-6'>
-    <button className='contact-button hidden lg:inline-block border p-3 rounded-full text-white bg-blue-500 hover:bg-blue-300 transition-colors duration-300 cursor-pointer'>
-        Contact us
-    </button>
-</div>
+                    <button className='contact-button hidden lg:inline-block border p-3 rounded-full text-white bg-blue-500 hover:bg-blue-300 transition-colors duration-200 cursor-pointer'>
+                        Contact us
+                    </button>
+                </div>
 
             </div>
         </div>
@@ -42,5 +41,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 

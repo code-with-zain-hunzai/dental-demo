@@ -8,4 +8,9 @@
 .border-r-2{
     border-color: #FFFFFF26;
 }
+.DentalCare {
+    background-color: #EFEFEF; /* Example custom background color */
+    padding: 20px; /* Example padding */
+    border-radius: 10px; /* Example border radius */
+}  
   
